@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 5%;
+  background-color: white;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.ul-btn {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  border: 2px solid #1daeff;
+  border-radius: 14px;
+  padding: 10px 30px;
+  color: #1daeff;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.login-btn:hover {
+  background-color: #1daeff;
+  color: white;
+}
+
+.body-countent {
+  width: 100%;
+  text-align: center;
+}
+.hero-section {
+  width: 90%;
+  height: 80vh;
+  background: url(../images/hero-section.png) no-repeat center center/cover;
+  border-radius:50px;
+
+  margin: auto;
+display: flex;
+align-items: start;
+justify-content: center;
+flex-direction: column;
+padding-left: 80px;
+
+text-align: start;
+
+
+
+}
+
+.hero-section h1 {
+  font-size: 70px;
+font-weight: 800;
+color: #110229;
+}
+
+.hero-section p {
+  font-size: 30px;
+  color: #585981;
+margin-bottom: 70px;
+margin-top: -10px;
+}
+.group-search{
+width: 60%;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: #fbfcfe;
+  padding: 20px;
+  border-radius: 0px 20px 20px 20px;
+}
+.option-group{
+  display: flex;
+}
+.option-group button {
+  background-color: #fbfcfe;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.input-group select {
+  padding: 8px;
+  /* border-radius: 0px 20px 20px 20px; */
+  border: 1px solid #ccc;
+}
+
+
+
+.search-btn {
+  background-color: #1daeff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn i {
+  font-size: 20px;
+}
