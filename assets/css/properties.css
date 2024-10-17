@@ -1,0 +1,121 @@
+.head-body{
+  width: 100%;
+  border-radius: 24px;
+  background-image: url(../images/properties-img/element-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+
+  margin: auto;
+}
+.main{
+  width: 80%;
+}
+.section-properties{
+  width: 100%;
+}
+.section-properties h2{
+  font-size: 30px;
+  font-weight: 800;
+  color: #110229;
+  margin: auto;
+  text-align: center;
+}
+.card-properties{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+
+  width: 400px;
+  border: solid #b6b6b632;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  border-radius: 12px 12px 0px 0px;
+  overflow: hidden;
+}
+.card-properties img{
+border-radius: 12px 12px 0px 0px;
+width: 400px;
+
+}
+.card-properties h6{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #1A1A1A;
+}
+.card-properties p{
+  font-size: 16px;
+
+  margin-bottom: 10px;
+
+  color: #1A1A1A;
+}
+.card-properties p i{
+  margin-right: 20px;
+  color: #1A1A1A;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.prix-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+.prix-icon span{
+  color: #EB664E;
+  font-size: 22px;
+  margin-left: 10px;
+  margin-right: 60px;
+  
+}
+.icons-card{
+  margin-left: 70px;
+}
+.icons-card span i ,.icons-card span{
+color: #1A1A1A;
+margin-right: 10px;
+font-size: 20px;
+}
+.cards-properties{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  margin: auto;
+  justify-content: space-between;
+}
+.button-voir{
+  width: 100%;
+  text-align: center;
+}
+.button-voir button{
+    border-radius: 14px;
+  padding: 10px 30px;
+
+  color: white;
+
+  background-color: #1daeff;
+  cursor: pointer;
+  transition: 0.5s;
+
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 20px ;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.button-voir button:hover{
+  color: #1daeff;
+  background-color: transparent;
+  border: 2px solid #1daeff;
+}
+.button-voir button i{
+  margin-left: 20px;
+}
